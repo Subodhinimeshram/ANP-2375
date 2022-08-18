@@ -1,14 +1,13 @@
 package org.my.company.model;
 
 public class Employee {
-
+	
 		public int employeeId;
 		public char employeeInitial;   //instant variable or member variable 
 		public int employeeSalary;
 		public Employee() {
 			
 			//empty constructor 
-		
 		}
 		
 		public Employee(int employeeId,char employeeInitial,int employeeSalary){
@@ -17,7 +16,6 @@ public class Employee {
 			this.employeeId=employeeId;            // It refer to current object
 			this.employeeInitial=employeeInitial;
 			this.employeeSalary=employeeSalary;	
-			
 		}
 		public int getemployeeId(){
 			
@@ -28,7 +26,6 @@ public class Employee {
 			
 			this.employeeId=employeeId;
 			//setter method
-			
 		}
 		public char getemployeeInitial() {
 			
@@ -46,8 +43,6 @@ public class Employee {
 			
 			this.employeeSalary=employeeSalary;
 		}
-
-		
-	}
+   }
 
 

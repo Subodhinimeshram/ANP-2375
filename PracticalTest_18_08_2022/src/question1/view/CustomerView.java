@@ -16,11 +16,12 @@ public class CustomerView {
 			System.out.println("you are elegible for Voting");
 			
 		}
-		else{System.out.println(CustService1.checkEligibility(Customer1));
-		
+		else{
+			
+			System.out.println(CustService1.checkEligibility(Customer1));
 			System.out.println("you are not elegible for Voting");
 		}
-		
+
 	}
 
 }

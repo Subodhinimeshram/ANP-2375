@@ -5,15 +5,16 @@ import question1.model.Customer;
 public class CustomerService {
 	
 	public boolean checkEligibility(Customer c){
-		boolean result = false;
+		boolean value;
 		int Age = c.getAge();
+		
 		if (Age>=18){
-			result = true;
+			value = true;
 		}
 		else {
-			result = false;	
+			value = false;	
 		}
-		return result;
+		return value;
 	
 		
 	}

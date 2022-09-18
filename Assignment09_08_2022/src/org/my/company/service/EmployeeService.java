@@ -1,4 +1,5 @@
 package org.my.company.service;
+
 import org.my.company.model.Employee;
 
 public class EmployeeService {
